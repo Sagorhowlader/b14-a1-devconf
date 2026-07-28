@@ -3,14 +3,34 @@
   padding: 0;
 }
 
+/* common button */
+.blue-btn {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  padding: 14px 50px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+
+.common-font {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
 .header-container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0 20px;
 }
+
+/* common element close  */
+
+/* navbar css */
 .nav-menu {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
 }
 .nav-container {
   display: flex;
@@ -33,28 +53,79 @@
   align-items: center;
   gap: 24px;
   list-style: none;
-  padding: 20px;
 }
 
 .nav-link a {
   text-decoration: none;
   color: #575757;
   font-weight: 400;
-}
-
-/* common button */
-
-.blue-btn {
-  background-color: #1d4ed8;
-  color: #ffffff;
-  padding: 12px 50px;
-  text-align: center;
-  border-radius: 8px;
-  border: none;
-}
-
-.commont-font {
-  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
   font-style: normal;
-  font-size: 16px;
 }
+.nav-register-btn {
+  font-size: 16px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+/* navbar css end  */
+
+/* hero css design */
+.hero {
+  background-image: url(../assets/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100vh;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 17, 17, 0.8);
+}
+.hero-container {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.hero-container-text {
+  max-width: 850px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #ffffffff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #ffffffff;
+  max-width: 808px;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+.hero-btn-container {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+.hero-btn {
+  padding: 20px 60px;
+  font-size: 18px;
+  cursor: pointer;
+}
+/* hero css end */
