@@ -134,6 +134,7 @@
 /* meet-the-speakers css start */
 .meet-the-speakers {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 .meet-the-speakers-container {
   padding: 0 60px;
@@ -196,3 +197,110 @@
   font-size: 1rem;
   margin: 0;
 }
+/* meet the speacker position css end */
+
+/* price cart css start */
+
+.price-cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-cart-title {
+  display: flex;
+  flex-direction: column;
+}
+.price-cart-title h1 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0d1b2a;
+}
+.price-cart-title span {
+  font-family: "Inter", sans-serif;
+  color: #575757;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 48px;
+}
+
+.price-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.price-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-width: thin;
+  border-radius: 10px;
+}
+.price-card-info {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  justify-content: start;
+  gap: 15px;
+}
+.price-feature-list {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #333333;
+}
+.price-feature-list li::marker {
+  color: #2563eb;
+}
+.price-card-info p {
+  font-size: 13px;
+  font-family: "Inter";
+  color: #888888;
+}
+.price-card-info h3 {
+  font-size: 44px;
+  font-family: "Inter";
+  color: #070707;
+}
+.price-btn {
+  padding: 11px 0;
+  font-family: "Inter";
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #2563eb;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.active-cart {
+  background-color: #0d1b2a;
+  color: white;
+}
+.get-pro-btn {
+  background-color: #2563eb;
+  color: white;
+  font-weight: 400;
+}
+
+.active-feature-list {
+  color: rgb(255, 255, 255, 0.8);
+}
+.active-cart-price p:first-child {
+  color: #93c5fd;
+}
+.active-cart-price h3 {
+  color: #ffffff;
+}
+.price-contact-btn {
+  background-color: #e5e7eb;
+  border: 1px solid #070707;
+  color: #070707;
+}
+.team-card {
+  background-color: #e5e7eb;
+}
+
+/* price cart css end */
