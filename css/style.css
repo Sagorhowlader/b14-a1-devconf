@@ -311,6 +311,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-bottom: 80px;
 }
 .sponsors-header {
   margin-top: 80px;
@@ -399,3 +400,26 @@
 .card-9 {
   grid-area: chatgpt;
 }
+
+/* footer start css */
+.footer-container {
+  background-color: #0d1b2a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px;
+}
+
+.footer-left {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+}
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  gap: 12px;
+}
+
+/* footer end css */
